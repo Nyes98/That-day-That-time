@@ -15,7 +15,7 @@ export default function LoginPage() {
 
   const test = async () => {
     const data = await getAllUsers();
-    console.log("zzz", data);
+    console.log("zz", data);
   };
 
   useEffect(() => {

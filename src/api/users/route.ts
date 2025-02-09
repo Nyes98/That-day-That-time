@@ -19,7 +19,7 @@ export async function GET() {
 
 export async function POST(request: Request) {
   try {
-    console.log(request);
+    console.log("request", request);
     const json = await request.json();
     const user = await prisma.user.create({
       data: {
