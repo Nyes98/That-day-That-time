@@ -1,4 +1,4 @@
-export type LoginFormInputs = {
+export interface LoginFormInputs {
   email: string;
   password: string;
-};
+}
